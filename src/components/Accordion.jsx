@@ -26,7 +26,7 @@ const
                                 >
                                     {obj.question}
                                     <span
-                                        className={`transform ${open === i ? 'rotate-180' : 'rotate-0'
+                                        className={`transform ml-4 ${open === i ? 'rotate-180' : 'rotate-0'
                                             } duration-300 ease-linear`}
                                     >
                                         {open === i ? <MinusLogo /> : <PlusLogo />}

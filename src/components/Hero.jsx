@@ -4,7 +4,7 @@ import GroupImg from '../assets/images/webp/hero-group-img.webp'
 import GroupImgResponsive from '../assets/images/webp/hero-img-responsive.webp'
 const Hero = () => {
     return (
-        <div className='bg-hero-bg bg-cover bg-no-repeat bg-center min-h-[844px] flex items-center justify-center relative overflow-hidden'>
+        <div className='bg-hero-bg bg-cover bg-no-repeat bg-center min-h-[851px] max-md:min-h-[771px] flex items-center justify-center relative overflow-hidden'>
             <div className='absolute top-6 left-6'>
                 <a href="#"><EightFigLogo /></a>
             </div>
