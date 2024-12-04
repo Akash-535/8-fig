@@ -4,18 +4,18 @@ import RevenueBlurImg from '../assets/images/webp/revenue-forecasting.webp';
 
 const Revenue = () => {
     return (
-        <div className="bg-[#EFECE6] py-[120px] max-md:py-14">
+        <div className="bg-[#EFECE6] py-[120px] max-md:py-14 overflow-hidden">
             <div className="container mx-auto px-4">
-                <div className="flex max-lg:flex-col-reverse max-lg:items-center max-lg:gap-10">
+                <div className="flex max-lg:flex-col-reverse max-lg:items-center gap-24 max-lg:gap-10">
                     <div className="w-full lg:w-6/12">
                         <div className="relative">
                             <img
-                                className="max-w-[480px] w-full mx-auto"
+                                className="max-w-[480px] w-full mx-auto max-md:translate-x-[4.3rem]"
                                 src={revenueImg}
                                 alt="evaluation"
                             />
                             <img
-                                className="max-w-[218px] w-full absolute top-1/4 -left-16 lg:-left-24 max-lg:-top-10 max-lg:max-w-[175px] max-lg:-left-2"
+                                className="max-w-[218px] w-full absolute top-1/4 lg:-left-16 max-lg:-top-10 max-lg:max-w-[175px] max-lg:left-0"
                                 src={RevenueBlurImg}
                                 alt="Revenue forecasting"
                             />

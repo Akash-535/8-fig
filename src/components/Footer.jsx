@@ -1,5 +1,5 @@
 import React from 'react'
-import { EightFigLogo, FacebookIcon, InstaIcon, LinkedInIcon, TwitterIcon } from './common/Icons'
+import { EightFigFooterLogo, EightFigLogo, FacebookIcon, InstaIcon, LinkedInIcon, TwitterIcon } from './common/Icons'
 
 const Footer = () => {
     const year = new Date().getFullYear()
@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className='flex justify-between items-center max-md:hidden'>
                     <div className='flex justify-between gap-16'>
-                        <EightFigLogo />
+                        <EightFigFooterLogo />
                         <p className='tracking-tighter-[8%] text-sm font-medium font-poppins text-[#76767F] max-w-40'>8fig, 1717 W 6th St, Austin, Texas</p>
                     </div>
                     <div>
@@ -24,8 +24,8 @@ const Footer = () => {
                 <div className='md:hidden'>
                     <div className='flex justify-between items-start'>
                         <div className='flex flex-col'>
-                            <EightFigLogo />
-                            <p className='tracking-tighter-[8%] text-xs font-medium font-poppins text-[#76767F] max-w-36 pt-[14px]'>8fig, 1717 W 6th St, Austin, Texas</p>
+                            <EightFigFooterLogo />
+                            <p className='tracking-tighter-[8%] text-xs font-medium font-poppins text-[#76767F] max-w-36 pt-[14px] uppercase'>8fig, 1717 W 6th St, Austin, Texas</p>
                         </div>
                         <div className='flex gap-6 items-center'>
                             <a href="https://facebook.com" target='_blank' className="facebook-icon"><FacebookIcon /></a>
@@ -35,7 +35,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='pt-16'>
-                        <p className='text-[#76767F] font-medium font-poppins tracking-tighter-[8%] text-sm flex items-center gap-2 justify-center'><span className='text-[23px]'>©</span> {year} 8fig - All Rights Reserved</p>
+                        <p className='text-[#76767F] font-medium font-poppins tracking-tighter-[8%] text-sm flex items-center gap-2 justify-center uppercase'><span className='text-[23px]'>©</span> {year} 8fig - All Rights Reserved</p>
                     </div>
                 </div>
             </div>
