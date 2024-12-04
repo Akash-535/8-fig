@@ -7,10 +7,12 @@ import Trust from './components/Trust';
 import Accordion from './components/Accordion';
 import Seller from './components/Seller';
 import Footer from './components/Footer';
+import BackToTop from './components/common/BackToTop';
 
 function App() {
   return (
     <div>
+      <BackToTop/>
 <Hero/>
 <Platforms/>
 <Revenue/>
